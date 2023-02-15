@@ -1,0 +1,14 @@
+email= input('enter email:')
+password = input('enter password:')
+
+if email=='rashmik3595@gmail.com' and password=='1234':
+   print('welcome')
+elif email=='rashmik3595@gmail.com' and password!='1234':
+  print('incorrect password')
+  password=input('enter password again:')
+  if password=='1234':
+    print('welcome finally')
+  else:
+    print('beta tmse na ho paega!')
+else:
+  print('incorrect')
